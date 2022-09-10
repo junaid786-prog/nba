@@ -110,6 +110,31 @@
     background-color: #0093E9;
     cursor: pointer;
 }
+.player_details{
+    background-color: #0093E9;
+    max-width: 100vw;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+}
+.player_details_card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    height: max-content;
+}
+.player_details_card p{
+    font-weight: 600;
+}
+.player_details_card span{
+    color: #0093E9;
+    padding: 0px 10px;
+}
 @media screen and (max-width: 800px){
     .specific_tab{
         padding: 20px 0px;
