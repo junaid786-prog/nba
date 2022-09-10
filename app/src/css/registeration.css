@@ -1,0 +1,73 @@
+.registeration_main{
+    max-width: 100vw;
+    padding: 0px 20px;
+}
+.tabs_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabs_button button{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+.active_tab_btn{
+    background-color: #0093E9 !important;
+}
+.selected_tab{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_section{
+    display: flex;
+    background-color: #0093E9;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 83vh;
+    padding: 20px;
+}
+.continue_btns{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.continue_btns input{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.login_btn{
+    margin-top: 10px;
+}
+.login_btn button{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+.login_btn button:hover{
+    background-color: #78b8dd;
+}
+.joining_section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px){
+    .registeration_main{
+        padding: 0px;
+    }
+    .login_section{
+        /* width: 100vw; */
+    }
+}

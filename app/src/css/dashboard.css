@@ -1,0 +1,123 @@
+.dashboard_container{
+    padding: 20px;
+    max-width: 100vw;
+    height: 90vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+.tabs_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tabs_buttons button{
+    width: 200px;
+    height: 50px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+
+}
+.active_tab_button{
+    background-color: aqua;
+}
+.specific_tab{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_input svg{
+    background-color: black;
+    color: #0093E9;
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+}
+.search_input input{
+    width: 370px;
+    padding: 10px;
+    border: none;
+}
+.results{
+    margin-top: 10px;
+}
+.player_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(47, 34, 221);
+    padding-left: 5px;
+    margin: 5px 0px;
+    color: white;
+    width: 400px;
+}
+.player_card p{
+    font-size: small;
+}
+.player_card_{
+    padding: 10px;
+}
+.player_card button{
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.my_team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my_team h3{
+    margin-bottom: 10px;
+}
+.success{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.empty_team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.empty_team button{
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+}
+.empty_team button:hover{
+    background-color: #0093E9;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px){
+    .specific_tab{
+        padding: 20px 0px;
+    }
+    .search_input input{
+        width: 300px;
+    }
+    .player_card{
+        width: 330px;
+    }
+}
