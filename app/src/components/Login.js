@@ -63,9 +63,7 @@ const LoginSection = () => {
       <div className="joining_section">
         <p className="login_p">
           Not already member?{" "}
-          <Link to="/register">
-            <span className="c_green cursor_ptr">Join now</span>
-          </Link>
+          <span className="c_green cursor_ptr">Join now</span>
         </p>
       </div>
     </div>
